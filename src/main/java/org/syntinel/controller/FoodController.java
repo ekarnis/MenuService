@@ -1,16 +1,21 @@
-package hello;
+package org.syntinel.controller;
+
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
+
+import javax.annotation.Resource;
+
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.syntinel.model.Food;
 
 @RestController
 public class FoodController {
 
-	
 	
 
     @RequestMapping("/menu")

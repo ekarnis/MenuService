@@ -22,5 +22,13 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/jars/jersey-core-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/jars/ojdbc6-11.2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Examples/jars/hamcrest-core-1.2.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

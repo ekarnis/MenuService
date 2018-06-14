@@ -1,4 +1,5 @@
-package hello;
+package org.syntinel.model;
+
 
 public class Food {
 
