@@ -8,3 +8,5 @@ insert into food
 	values (3, 'Pan-Friend Chicken', 'Dinner', 50.0, 'a timeless classic', 999, 'pan-friendChicken.jpg');
 insert into food 
 	values (4, 'Cannoli', 'Lunch', 10.0, 'tighter than area 51s security', 999, 'cannoli.jpg');
+disconnect;
+connect PRICKLYPEAR/PRICKLYPEAR;
